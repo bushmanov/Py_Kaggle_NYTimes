@@ -43,5 +43,5 @@ http://r-train.ru/tag/kaggle/
 ## A note on Python (*.ipynb) scripts vs *.R scripts
 
 - Due to computational intensity Python was used as a workhorse for model tuning and Cross Validation
-- R was used for data exploration and model prototyping.
+- R was used for data exploration, preliminary idea testing, and model prototyping.
 - Final model was built entirely in Python from data loading, to preprocessing, model tuning, and predicting.
