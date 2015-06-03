@@ -35,6 +35,7 @@ Lessons learnt:
 when duplication was removed.
 - Use Extra Trees Classifier instead of vanilla plain Random Forest to make models more robust.
 - GBM, even though very time consuming when tuning, did not show results superior to RF.
+- Built-in in-model feature selection works better than out-of-model pre-filtering and then fitting (see more [here](http://topepo.github.io/caret/featureselection.html) from Max Kuhn)
 
 All the notebooks presented here are also available at
 http://r-train.ru/tag/kaggle/
