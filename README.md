@@ -10,6 +10,7 @@ The features given:
 - Titles
 - Abstract/text snippets
 - Names of sections/subsections
+- Time when an article was posted
 
 The approaches tried:
 
@@ -17,8 +18,9 @@ The approaches tried:
     - bag of words on Title/Abstract (unigrams and bigrams)
     - filtering on statistical significance of 'important'/'not important' words (based on t-test 
     between popular/not popular groupings)
-    - filtering out time-sensitive features by randomizing/regularizing/bagging/filtering for consistent importance  
+    - filtering out time-sensitive features by randomizing/regularizing/bagging/filtering for consistent importance
     - entity name extraction (due to http://nbviewer.ipython.org/gist/mattsco/8dddf256244fb7d47d47 )
+    - time (moring, afternoon, evening etc....  bizday vs weekend etc...)
 
 - Classification models:
     - GLM, including randomized GLM, with L1 and L2 penalties (a.k.a. Lasso and Ridge for classification)
